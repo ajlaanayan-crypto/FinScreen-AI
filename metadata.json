@@ -1,0 +1,5 @@
+{
+  "name": "FinScreen AI - Intelligent Stock Analysis",
+  "description": "A comprehensive equity research platform inspired by Screener.in, featuring interactive charts, detailed financial tables, and Gemini-powered AI analysis for fair value estimation, summaries, and natural language screening.",
+  "requestFramePermissions": []
+}
