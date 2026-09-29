@@ -22,3 +22,17 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Auto-added standard ignores
+*.env
+.env
+.env.*.local
+.env.local
+.next/
+.pnp.js
+.pnp/
+.turbo/
+Thumbs.db
+build/
+dist/
+node_modules/

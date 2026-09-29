@@ -3,7 +3,7 @@ import { StockData } from "../types";
 import { MOCK_STOCK_DATA } from "../constants";
 
 // Initialize Gemini
-const apiKey = process.env.API_KEY || ''; // Ensure this is handled safely
+const apiKey = import.meta.env.VITE_API_KEY || '';
 const ai = new GoogleGenAI({ apiKey });
 
 export interface AnalysisResult {
